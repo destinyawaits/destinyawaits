@@ -2,35 +2,16 @@ name: Update Featured Projects
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 */6 * * *"
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
 
 jobs:
-  update-readme:
+  test:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Run updater
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USERNAME: samsheer
-        run: python scripts/update_featured_projects.py
-
-      - name: Commit changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "Update featured projects" || exit 0
-          git push
+      - name: Test
+        run: echo "Workflow detected"
