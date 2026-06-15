@@ -60,7 +60,7 @@ Now integrating AI/ML into production systems and exploring Rust for high-perfor
 ## Featured Projects
 
 <!-- featured-projects:start -->
-> Dynamic projects will be injected here by GitHub Actions.
+
 <!-- featured-projects:end -->
 
 ---
