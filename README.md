@@ -59,25 +59,9 @@ Now integrating AI/ML into production systems and exploring Rust for high-perfor
 
 ## Featured Projects
 
-<p align="center">
-  <a href="https://github.com/samsheer/<repo1>">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=samsheer&repo=<repo1>&hide_border=true&theme=tokyonight" />
-  </a>
-  <a href="https://github.com/samsheer/<repo2>">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=samsheer&repo=<repo2>&hide_border=true&theme=tokyonight" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/samsheer/<repo3>">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=samsheer&repo=<repo3>&hide_border=true&theme=tokyonight" />
-  </a>
-  <a href="https://github.com/samsheer/<repo4>">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=samsheer&repo=<repo4>&hide_border=false&theme=tokyonight" />
-  </a>
-</p>
-
-> Replace `<repo1>`, `<repo2>`, etc. with your actual repo names.
+<!-- featured-projects:start -->
+> Dynamic projects will be injected here by GitHub Actions.
+<!-- featured-projects:end -->
 
 ---
 
